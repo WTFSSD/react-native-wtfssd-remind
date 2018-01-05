@@ -1,0 +1,1 @@
+# 在iOS10+中，若要访问用户日程或提醒，需要在info.plist中分别添加NSRemindersUsageDescription和NSCalendarsUsageDescription

@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface RCTRemind : NSObject
+#import <EventKitUI/EventKitUI.h>
+#import <React/RCTBridgeModule.h>
+@interface RCTRemind : NSObject<RCTBridgeModule,EKEventEditViewDelegate>
 
 @end
