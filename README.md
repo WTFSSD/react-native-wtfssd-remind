@@ -1,5 +1,12 @@
 # react-native-wtfssd-remind
 # 向系统日历中添加自定义提醒事件
-----
 
-# 在iOS10+中，若要访问用户日程或提醒，需要在info.plist中分别添加NSRemindersUsageDescription和NSCalendarsUsageDescription
+## Installation
+`npm install react-native-wtfssd-remind --save`
+
+# Usage
+# 权限
+- ios 添加 `NSRemindersUsageDescription`和`NSCalendarsUsageDescription` 到 `info.plist`
+- android 添加 `    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />` 到 `AndroidManifest.xml`
+    
